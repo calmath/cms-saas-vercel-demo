@@ -16,3 +16,8 @@
 .DS_Store
 .vercel
 .env*.local
+
+# Environment files
+.env
+apps/frontend/.env
+apps/frontend/.env.*
