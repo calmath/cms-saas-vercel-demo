@@ -20,4 +20,6 @@
 # Environment files
 .env
 apps/frontend/.env
-apps/frontend/.env.*
+# Ignore all frontend env files except the example
+apps/frontend/.env*
+!apps/frontend/.env.example
